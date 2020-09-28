@@ -17,7 +17,7 @@
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="rectangleCopy2" translatesAutoresizingMaskIntoConstraints="NO" id="zxA-R7-rSA">
-                        <rect key="frame" x="0.0" y="8" width="75" height="19"/>
+                        <rect key="frame" x="0.0" y="7" width="75" height="19"/>
                     </imageView>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="4x value " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nLp-Tx-p37">
                         <rect key="frame" x="16" y="10" width="55" height="14"/>
@@ -26,32 +26,37 @@
                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <nil key="highlightedColor"/>
                     </label>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Flat Rs.400 off on Bus tickets for 100 Coins" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VQz-iP-rfy">
-                        <rect key="frame" x="16" y="38" width="179" height="32"/>
-                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
-                        <color key="textColor" red="0.27450980390000002" green="0.28235294119999998" blue="0.30196078430000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <nil key="highlightedColor"/>
-                    </label>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Claim for      100" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0AU-SM-dlc">
-                        <rect key="frame" x="16" y="73" width="98" height="20"/>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Claim for      100" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0AU-SM-dlc">
+                        <rect key="frame" x="16" y="78.5" width="92" height="14.5"/>
                         <fontDescription key="fontDescription" type="system" pointSize="12"/>
                         <color key="textColor" red="0.13333333333333333" green="0.46274509803921571" blue="0.8901960784313725" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <nil key="highlightedColor"/>
                     </label>
-                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="rectangle" translatesAutoresizingMaskIntoConstraints="NO" id="Rjb-27-l1A">
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="rectangle" translatesAutoresizingMaskIntoConstraints="NO" id="Rjb-27-l1A">
                         <rect key="frame" x="218" y="0.0" width="93" height="104"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="93" id="3a6-iz-Kun"/>
+                            <constraint firstAttribute="height" constant="104" id="Lod-1b-GOL"/>
+                        </constraints>
                     </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Flat Rs.400 off on Bus tickets for 100 Coins." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VQz-iP-rfy">
+                        <rect key="frame" x="16" y="42.5" width="179" height="29"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" red="0.27450980390000002" green="0.28235294119999998" blue="0.30196078430000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
                 </subviews>
                 <constraints>
-                    <constraint firstItem="VQz-iP-rfy" firstAttribute="top" secondItem="zxA-R7-rSA" secondAttribute="bottom" constant="11" id="5G9-Ej-zoe"/>
-                    <constraint firstItem="0AU-SM-dlc" firstAttribute="top" secondItem="VQz-iP-rfy" secondAttribute="bottom" constant="3" id="5PT-x5-erW"/>
-                    <constraint firstItem="zxA-R7-rSA" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="5WM-jO-Z8o"/>
-                    <constraint firstItem="0AU-SM-dlc" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" id="A6o-h8-4KD"/>
-                    <constraint firstItem="0AU-SM-dlc" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" id="G2d-hf-9Bn"/>
-                    <constraint firstItem="zxA-R7-rSA" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="OXZ-4M-y3i"/>
-                    <constraint firstItem="0AU-SM-dlc" firstAttribute="top" secondItem="VQz-iP-rfy" secondAttribute="bottom" constant="4" id="PeE-UE-sbi"/>
-                    <constraint firstItem="VQz-iP-rfy" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="Rue-zr-scz"/>
+                    <constraint firstItem="Rjb-27-l1A" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="7a7-cD-kQg"/>
+                    <constraint firstItem="VQz-iP-rfy" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="9PN-Aw-36i"/>
+                    <constraint firstItem="zxA-R7-rSA" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="7" id="B5p-zU-WbM"/>
+                    <constraint firstAttribute="bottom" secondItem="Rjb-27-l1A" secondAttribute="bottom" id="C30-pg-QtQ"/>
+                    <constraint firstItem="zxA-R7-rSA" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="F1q-aI-3AZ"/>
+                    <constraint firstAttribute="trailing" secondItem="Rjb-27-l1A" secondAttribute="trailing" id="O9l-EV-ZRw"/>
+                    <constraint firstAttribute="bottom" secondItem="0AU-SM-dlc" secondAttribute="bottom" constant="11" id="P4u-AD-gzv"/>
+                    <constraint firstItem="0AU-SM-dlc" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="WUO-wt-Mhc"/>
+                    <constraint firstItem="Rjb-27-l1A" firstAttribute="leading" secondItem="VQz-iP-rfy" secondAttribute="trailing" constant="23" id="yrO-eI-Ofi"/>
+                    <constraint firstItem="0AU-SM-dlc" firstAttribute="top" secondItem="VQz-iP-rfy" secondAttribute="bottom" constant="7" id="z57-hm-dGk"/>
                 </constraints>
             </tableViewCellContentView>
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
@@ -63,16 +68,6 @@
             </connections>
             <point key="canvasLocation" x="-54.347826086956523" y="-109.15178571428571"/>
         </tableViewCell>
-        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="oVK-wK-2ZR">
-            <rect key="frame" x="0.0" y="0.0" width="163" height="16"/>
-            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-            <point key="canvasLocation" x="44.20289855072464" y="-50.892857142857139"/>
-        </imageView>
-        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="NTq-dO-82B">
-            <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
-            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-            <point key="canvasLocation" x="183" y="-3"/>
-        </imageView>
     </objects>
     <resources>
         <image name="rectangle" width="94" height="105"/>

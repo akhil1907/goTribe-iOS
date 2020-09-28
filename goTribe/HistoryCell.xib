@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="historyCell" rowHeight="104" id="KGk-i7-Jjw" customClass="HistoryCell" customModule="goTribe" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="369" height="104"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="369" height="104"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Earned" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FnH-1A-p8U">
+                        <rect key="frame" x="56" y="24" width="49" height="17"/>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
+                        <color key="textColor" red="0.27450980392156865" green="0.28235294117647058" blue="0.30196078431372547" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="on hotel booking HOTL282480" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WeR-Wz-Tun">
+                        <rect key="frame" x="56" y="46" width="175.5" height="14.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="+ 50" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="061-2W-T6E">
+                        <rect key="frame" x="315" y="24" width="30" height="17"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" red="0.094117647058823528" green="0.76862745098039209" blue="0.23921568627450979" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="27 May, ‘20" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Flh-zN-Tc9">
+                        <rect key="frame" x="284" y="46" width="61" height="13"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                        <color key="textColor" red="0.46666666670000001" green="0.46666666670000001" blue="0.46666666670000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Valid till 27th May, ‘21" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zii-yB-lBC">
+                        <rect key="frame" x="56" y="79" width="122.5" height="14.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" red="0.46666666666666667" green="0.46666666666666667" blue="0.46666666666666667" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="FnH-1A-p8U" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="24" id="2k0-Rq-8fU"/>
+                    <constraint firstItem="zii-yB-lBC" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="56" id="6N8-F5-l80"/>
+                    <constraint firstItem="061-2W-T6E" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="24" id="8C3-Nb-hi1"/>
+                    <constraint firstItem="WeR-Wz-Tun" firstAttribute="top" secondItem="FnH-1A-p8U" secondAttribute="bottom" constant="5" id="A3m-sZ-Ndz"/>
+                    <constraint firstItem="WeR-Wz-Tun" firstAttribute="top" secondItem="FnH-1A-p8U" secondAttribute="bottom" constant="5" id="Pnz-8q-6Pb"/>
+                    <constraint firstItem="FnH-1A-p8U" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="56" id="az3-PX-asN"/>
+                    <constraint firstItem="Flh-zN-Tc9" firstAttribute="top" secondItem="061-2W-T6E" secondAttribute="bottom" constant="5" id="cZA-Wy-BDS"/>
+                    <constraint firstAttribute="trailing" secondItem="Flh-zN-Tc9" secondAttribute="trailing" constant="24" id="knd-Co-tYt"/>
+                    <constraint firstAttribute="bottom" secondItem="zii-yB-lBC" secondAttribute="bottom" constant="10.5" id="ppR-UN-DJs"/>
+                    <constraint firstAttribute="trailing" secondItem="061-2W-T6E" secondAttribute="trailing" constant="24" id="ugv-Hp-Xit"/>
+                    <constraint firstItem="WeR-Wz-Tun" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="56" id="x88-La-vFe"/>
+                    <constraint firstItem="zii-yB-lBC" firstAttribute="top" secondItem="WeR-Wz-Tun" secondAttribute="bottom" constant="18.5" id="yiR-ce-Sck"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="dateLabel" destination="Flh-zN-Tc9" id="RED-Ml-3gq"/>
+                <outlet property="descriptionLabel" destination="WeR-Wz-Tun" id="3PS-EF-xXf"/>
+                <outlet property="statusLabel" destination="FnH-1A-p8U" id="siw-w1-Znt"/>
+                <outlet property="validityLabel" destination="zii-yB-lBC" id="deV-1d-YUq"/>
+                <outlet property="valueLabel" destination="061-2W-T6E" id="P4h-MK-alj"/>
+            </connections>
+            <point key="canvasLocation" x="119.56521739130436" y="111.16071428571428"/>
+        </tableViewCell>
+    </objects>
+</document>
